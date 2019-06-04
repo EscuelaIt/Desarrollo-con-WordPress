@@ -1,0 +1,100 @@
+/*
+Theme Name: twentyseventeen-child
+Template: twentyseventeen
+Version: 1.0.0
+Text Domain: twentyseventeen-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+.page-id-25 .panel-content .entry-title {
+    font-size: 24px;
+    color: #d8b879;
+		background: #eee;
+    padding: 20px;
+	  text-align: center;
+		letter-spacing: 5px;
+    font-weight: 400;
+		font-family: 'Pacifico', cursive;
+		text-transform: capitalize;
+}
+.page-id-25 .entry-content p {
+    font-size: 19px;
+	  text-align: justify;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+.page-id-25 .entry-content p a {
+    color: #4CAF50;
+}
+.page-id-25 .entry-content h2 {
+    font-size: 38px;
+    color: #03A9F4;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.call-to-action a {
+    background: #8BC34A;
+    color: #fff;
+    border-radius: 5px;
+}
+input[type="search"]:focus {
+    background-color: #fff2cb;
+}
+.home .widget_search {
+    display: none;
+}
+/* .site-info:before {
+    content: "Todos los derechos reservados. 2019";
+}
+.site-info a {
+    display: none;
+} */
+li#menu-item-83 {
+    border: 2px dotted #000;
+}
+
+@media screen and (min-width: 48em) {
+    .wrap {
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 48em) {
+    body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.error404 #primary .page-header, body.page-two-column:not(.archive) #primary .entry-header, body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
+        float: none;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 48em) {
+    .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+        float: none;
+        width: 100%;
+    }
+}
+.site-content-contain {
+    background-color: aliceblue;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
+    font-family: 'Ostrich Sans';
+}
